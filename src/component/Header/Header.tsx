@@ -11,13 +11,11 @@ import {
   MenuList,
   Spacer,
   useToast,
-  Link,
 } from '@chakra-ui/react'
 import { useAuthContext } from '@src/feature/auth/provider/AuthProvider'
 import { FirebaseError } from '@firebase/util'
 import { getAuth, signOut } from 'firebase/auth'
 import { useRouter } from '@src/hooks/useRouter/useRouter'
-import NextLink from 'next/link'
 import { Navigate } from '../Navigate/Navigate'
 
 export const Header = () => {
